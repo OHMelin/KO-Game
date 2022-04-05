@@ -30,6 +30,7 @@ public class Main {
 		player.printAll();
 		
 //OLIVER
+		System.out.println("kenni");
 		
 		
 		/*Scanner sc = new Scanner(System.in);
