@@ -23,36 +23,9 @@ public class Main {
 		
 		
 		
-		//Test the map
+		//########### TESTING ###########\\
 		board.updateDrawMap();
-		System.out.println();
-		//Test the player printAll
 		player.printAll();
-		
-//OLIVER
-		System.out.println("Oliver");
-		System.out.println("kenni");
-		
-		
-		/*Scanner sc = new Scanner(System.in);
-		String input = sc.nextLine().toLowerCase();
-		boolean run = true;
-		
-	
-		do {			
-			switch(input) {
-				case "diller": 
-					System.out.println("daller");
-					input = "";
-					input = sc.nextLine().toLowerCase();
-					break;
-				case "b":
-					System.out.println("kenni");
-					input = "";
-					break;
-			}
-		} while (run);*/
-
 	}
 }
 
