@@ -29,7 +29,7 @@ public class Main {
 		//Test the player printAll
 		player.printAll();
 		
-
+//#######Kenni#############
 		
 		
 		/*Scanner sc = new Scanner(System.in);
