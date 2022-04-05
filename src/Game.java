@@ -11,7 +11,7 @@ public class Game {
     	
     }
     
-    public void move() {
+    public void input() {
     	do {
             String choice = input.next();
             

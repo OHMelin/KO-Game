@@ -20,7 +20,8 @@ public class Map {
 	 */
 	public void updateDrawMap() 
 	{
-		char[][] map = {{'#','#','#','#','#','#'}, 
+		char[][] map = {
+				{'#','#','#','#','#','#'}, 
 				{'#','-','-','-','-'},
 				{'#','-','-','-','-','#'},
 				{'#','-','-','-','-','#'},
@@ -46,7 +47,7 @@ public class Map {
 		
 		//Map Boundary Checks
 			
-
+		//Movement
 	}
 	
 	
