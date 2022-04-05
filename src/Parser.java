@@ -2,12 +2,11 @@
 
 import java.util.*;
 
-public class Game {
+public class Parser {
 
     private Health health;
     Scanner input = new Scanner(System.in);
-    
-    public Game() {
+    public Parser() {
     	
     }
     
