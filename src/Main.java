@@ -1,6 +1,6 @@
 
 
-import java.util.*;
+//import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
@@ -16,6 +16,9 @@ public class Main {
 		Experience experience = new Experience();
 		Player player = new Player("Oliver");
 		Enemy enemy = new Enemy("Orc", 5.5);
+		Parser parser = new Parser();
+		Game game = new Game();
+		
 		
 		enemy.setHealth(enemyHealth);
 		player.setHealth(playerHealth);
@@ -25,7 +28,11 @@ public class Main {
 		
 		//########### TESTING ###########\\
 		board.updateDrawMap();
-		player.printAll();
+		game.play();
+		
+		//player.printAll();
+		
+		
 	}
 }
 

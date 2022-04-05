@@ -38,4 +38,25 @@ public class Map {
 			System.out.println();
 		}
 	}
+	
+	public void movePlayerW() {
+		playerRow--;
+		updateDrawMap();
+	}
+	
+	public void movePlayerS() {
+		playerRow++;
+		updateDrawMap();
+	}
+	
+	public void movePlayerD() {
+		playerCol++;
+		updateDrawMap();
+	}
+	
+	public void movePlayerA() {
+		playerCol--;
+		updateDrawMap();
+	}
+//EndsClass	
 }
